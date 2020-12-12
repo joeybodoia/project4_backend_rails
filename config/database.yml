@@ -81,6 +81,8 @@ test:
 #
 production:
   <<: *default
-  database: playlist_songs_api_production
-  username: playlist_songs_api
-  password: <%= ENV['PLAYLIST_SONGS_API_DATABASE_PASSWORD'] %>
+  url: <%= ENV['MY_APP_DATABASE_URL'] %>
+  # database: playlist_songs_api_production
+  # username: playlist_songs_api
+  # password: <%= ENV['PLAYLIST_SONGS_API_DATABASE_PASSWORD'] %>
+  
