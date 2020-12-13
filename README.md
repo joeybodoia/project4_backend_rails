@@ -1,24 +1,7 @@
-# README
+# Backend for Project 4
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project 4 is a web application that hosts songs and playlists. I used Ruby on Rails to create the backend api. 
 
-Things you may want to cover:
+I created a many to many relationship between songs and playlists: songs can belong to many playlists, and a playlist can have many songs.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The api is deployed on heroku: https://rails-songs-playlists-api.herokuapp.com/songs
